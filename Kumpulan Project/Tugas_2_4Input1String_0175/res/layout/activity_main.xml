@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/edit_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_hari"
+        android:layout_below="@+id/edit_hari"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Tanggal"
+        android:inputType="textPersonName"
+        android:textColorLink="#33cc33" />
+
+    <EditText
+        android:id="@+id/edit_hari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_tempat"
+        android:layout_below="@+id/edit_tempat"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Hari"
+        android:inputType="textPersonName"
+        android:textColorLink="#33cc33" />
+
+    <EditText
+        android:id="@+id/edit_tempat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_nama"
+        android:layout_below="@+id/edit_nama"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Tempat"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="Undangan Pernikahan"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Nama Undangan"
+        android:inputType="textPersonName"
+        android:textColorLink="#33cc33" />
+
+    <Button
+        android:id="@+id/btn_proses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_tanggal"
+        android:layout_below="@+id/edit_tanggal"
+        android:layout_marginTop="19dp"
+        android:text="Proses" />
+
+    <TextView
+        android:id="@+id/txt_undangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_proses"
+        android:layout_below="@+id/btn_proses"
+        android:layout_marginTop="16dp"
+        android:text="Undangan"
+        android:textSize="18sp" />
+
+</RelativeLayout>

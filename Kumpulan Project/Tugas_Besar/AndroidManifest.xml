@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.splashscreen"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.splashscreen.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Activity_Home"
+            android:label="@string/title_activity_activity__home" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas1Activity"
+            android:label="@string/title_activity_tugas1" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas2Activity"
+            android:label="@string/title_activity_tugas2" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas3Activity"
+            android:label="@string/title_activity_tugas3" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas4Activity"
+            android:label="@string/title_activity_tugas4" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas5Activity"
+            android:label="@string/title_activity_tugas5" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas6Activity"
+            android:label="@string/title_activity_tugas6" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas7Activity"
+            android:label="@string/title_activity_tugas_soal_aftr_uts" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas7Activity"
+            android:label="@string/title_activity_tugas7" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas8Activity"
+            android:label="@string/title_activity_tugas8" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas8_1Activity"
+            android:label="@string/title_activity_tugas8_1" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas8_2Activity"
+            android:label="@string/title_activity_tuga8_2" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas9Activity"
+            android:label="@string/title_activity_tugas9" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas9_1Activity"
+            android:label="@string/title_activity_tugas9_1" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.TugasBonusActivity"
+            android:label="@string/title_activity_tugas_bonus" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.TugasBonusDataActivity"
+            android:label="@string/title_activity_tugas_bonus_data" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.TugasBonus2Activity"
+            android:label="@string/title_activity_tugas_bonus2" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.TugasBonus2DataActivity"
+            android:label="@string/title_activity_tugas_bonus2_data" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas10Activity"
+            android:label="@string/title_activity_tugas10" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas10_1Activity"
+            android:label="@string/title_activity_tugas10_1" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas10_2Activity"
+            android:label="@string/title_activity_tugas10_2" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Activity_Home_2"
+            android:label="@string/title_activity_activity__home_2" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Project1Activity"
+            android:label="@string/title_activity_project1" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Project2Activity"
+            android:label="@string/title_activity_project2" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Project3Activity"
+            android:label="@string/title_activity_project3" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Project4Activity"
+            android:label="@string/title_activity_project4" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Project5Activity"
+            android:label="@string/title_activity_project5" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Project6Activity"
+            android:label="@string/title_activity_project6" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Project7Activity"
+            android:label="@string/title_activity_project7" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Project8Activity"
+            android:label="@string/title_activity_project8" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Project9Activity"
+            android:label="@string/title_activity_project9" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Project10Activity"
+            android:label="@string/title_activity_project10" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Project10_2Activity"
+            android:label="@string/title_activity_project10_2" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.General"
+            android:label="@string/title_activity_general" >
+        </activity>
+        <activity
+            android:name="com.example.MuhammadIkhsan19101152630175.Tugas11Activity"
+            android:label="@string/title_activity_tugas11" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas11Activity"
+            android:label="@string/title_activity_tugas11" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas11_1Activity"
+            android:label="@string/title_activity_tugas11_1" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas11_2Activity"
+            android:label="@string/title_activity_tugas11_2" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas11_3Activity"
+            android:label="@string/title_activity_tugas11_3" >
+        </activity>
+        <activity
+            android:name="com.example.splashscreen.Tugas11_2_1Activity"
+            android:label="@string/title_activity_tugas11_2_1" >
+        </activity>
+    </application>
+
+</manifest>

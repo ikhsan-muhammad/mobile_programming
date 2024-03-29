@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SplashScreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity__home">Activity_Home</string>
+    <string name="title_activity_tugas1">Tugas1Activity</string>
+    <string name="title_activity_tugas2">Tugas2Activity</string>
+    <string name="title_activity_tugas3">Tugas3Activity</string>
+    <string name="title_activity_tugas4">Tugas4Activity</string>
+    <string name="title_activity_tugas5">Tugas5Activity</string>
+    <string name="title_activity_tugas6">Tugas6Activity</string>
+    <string name="title_activity_tugas_soal_aftr_uts">TugasSoalAftrUTSActivity</string>
+    <string name="title_activity_tugas7">Tugas7Activity</string>
+    <string name="title_activity_tugas8">Tugas8Activity</string>
+    <string name="title_activity_tugas8_1">Tugas8_1Activity</string>
+    <string name="title_activity_tuga8_2">Tuga8_2Activity</string>
+    <string name="title_activity_tugas9">Tugas9Activity</string>
+    <string name="title_activity_tugas9_1">Tugas9_1Activity</string>
+    <string name="title_activity_tugas_bonus">TugasBonusActivity</string>
+    <string name="title_activity_tugas_bonus_data">TugasBonusDataActivity</string>
+    <string name="title_activity_tugas_bonus2">TugasBonus2Activity</string>
+    <string name="title_activity_tugas_bonus2_data">TugasBonus2DataActivity</string>
+    <string name="title_activity_tugas10">Tugas10Activity</string>
+    <string name="title_activity_tugas10_1">Tugas10_1Activity</string>
+    <string name="title_activity_tugas10_2">Tugas10_2Activity</string>
+    <string name="title_activity_activity__home_2">Activity_Home_2</string>
+    <string name="title_activity_project1">Project1Activity</string>
+    <string name="title_activity_project2">Project2Activity</string>
+    <string name="title_activity_project3">Project3Activity</string>
+    <string name="title_activity_project4">Project4Activity</string>
+    <string name="title_activity_project5">Project5Activity</string>
+    <string name="title_activity_project6">Project6Activity</string>
+    <string name="title_activity_project7">Project7Activity</string>
+    <string name="title_activity_project8">Project8Activity</string>
+    <string name="title_activity_project9">Project9Activity</string>
+    <string name="title_activity_project10">Project10Activity</string>
+    <string name="title_activity_project10_2">Project10_2Activity</string>
+    <string name="title_activity_general">General</string>
+    <string name="title_activity_tugas11">Tugas11Activity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_tugas11_1">Tugas11_1Activity</string>
+    <string name="title_activity_tugas11_2">Tugas11_2Activity</string>
+    <string name="title_activity_tugas11_3">Tugas11_3Activity</string>
+    <string name="title_activity_tugas11_2_1">Tugas11_2_1Activity</string>
+
+</resources>

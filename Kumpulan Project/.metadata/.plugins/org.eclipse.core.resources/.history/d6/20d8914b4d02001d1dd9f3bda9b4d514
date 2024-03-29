@@ -1,0 +1,29 @@
+package com.example.mobile_muhammad_ikhsan_19101152630175_if5;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.Spinner;
+
+public class Page2Activity extends Activity {
+EditText edit_noreg, edit_nama, edit_lama;
+Spinner sp;
+RadioGroup rg;
+RadioButton rb1,rb2;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_page2);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.page2, menu);
+		return true;
+	}
+
+}
